@@ -16,3 +16,4 @@ En este reto se hizo uso de Canvas:
 
 > Para la primera parte se hizo uso del método arc del canvas
 > En la segunda parte se hizo uso de los métodos moveTo y lineTo del canvas.
+
