@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Calculadora Gráfica</title>
+</head>
+<body>
+  <header>
+  </header>
+  <main>
+    <h1>Calculadora Gráfica</h1>
+    <section class="section-point">
+      <p class="coord-title">Inserta valores x e y:<br>
+        <section>
+          <input type="text" class="coord-box" id="x_coor">
+          <input type="text" class="coord-box" id="y_coor">
+          <div>
+            <input type="button" value="Ingresar" id="btn_point">
+          </div>
+        </section>
+      </p>
+    </section>
+    <section class="section-bars">
+      <p class="coord-title">Inserta valores x e y para el gráfico de barras:<br>
+        <section class="coord-tuple">
+          <input type="text" class="coord-box" id="x_coor_1">
+          <input type="text" class="coord-box" id="y_coor_1">
+          <div class="color-tuple-box color-tuple-1"></div>
+        </section>
+        <section class="coord-tuple">
+          <input type="text" class="coord-box" id="x_coor_2">
+          <input type="text" class="coord-box" id="y_coor_2">
+          <div class="color-tuple-box color-tuple-2"></div>
+        </section>
+        <section class="coord-tuple">
+          <input type="text" class="coord-box" id="x_coor_3">
+          <input type="text" class="coord-box" id="y_coor_3">
+          <div class="color-tuple-box color-tuple-3"></div>
+        </section>
+        <section class="coord-tuple">
+          <input type="text" class="coord-box" id="x_coor_4">
+          <input type="text" class="coord-box" id="y_coor_4">
+          <div class="color-tuple-box color-tuple-4"></div>
+        </section>
+        <section class="coord-tuple">
+          <input type="text" class="coord-box" id="x_coor_5">
+          <input type="text" class="coord-box" id="y_coor_5">
+          <div class="color-tuple-box color-tuple-5"></div>
+        </section>
+        <input type="button" value="Ingresar" id="btn_graphic">
+      </p>
+    </section>
+    <section>
+      <canvas width="200" height="200" id="dibujo"></canvas><br>
+      <input type="button" value="Borrar" id="btn_erase">
+    </section>
+  </main>
+  <script src="index.js"></script>
+</body>
+</html>

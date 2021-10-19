@@ -1,0 +1,21 @@
+{
+  "name": "reto1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev_gr": "nodemon index.js",
+    "start_gr": "node index.js",
+    "lint": "eslint"
+  },
+  "keywords": [],
+  "author": "Cesar Velandia <cesarmvelandiaf@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.13",
+    "prettier": "^2.4.1"
+  }
+}
